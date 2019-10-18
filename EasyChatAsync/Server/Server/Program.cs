@@ -1,6 +1,7 @@
 ﻿using AsyncServer;
 using System;
 
+// 目前此服务器无法接收多客户端
 namespace Server
 {
     class Program
