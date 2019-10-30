@@ -11,6 +11,7 @@ class Program
     static void Main(string[] args) {
 
         ThreadSokectClient client = new ThreadSokectClient();
-        client.start(); 
+        client.start();
+        Console.ReadLine();
     } 
 }

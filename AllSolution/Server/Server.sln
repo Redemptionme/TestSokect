@@ -25,6 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadServer", "Thread\Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{078CE7E8-94C3-44D8-A18C-42962A19F8C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatRoom", "TcpChatRoom\TcpChatRoom.csproj", "{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{078CE7E8-94C3-44D8-A18C-42962A19F8C8} = {078CE7E8-94C3-44D8-A18C-42962A19F8C8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpChatRoom", "UdpChatRoom\UdpChatRoom.csproj", "{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +58,14 @@ Global
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
