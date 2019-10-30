@@ -5,6 +5,9 @@ using System.Net;
 using System.Net.Sockets;
 using common;
 
+// 没有再继续accept 所以这个服务器器只能连接一个
+
+
 namespace AsyncServer
 {
     public class AsyncTCPServer
@@ -32,7 +35,7 @@ namespace AsyncServer
                 Console.WriteLine(string.Format("客户端{0}请求连接...", client.RemoteEndPoint));
                 AsyncSend(client, "AsyncTCPServer服务器收到连接请求");
                 AsyncSend(client, string.Format("欢迎你{0}", client.RemoteEndPoint));
-                AsyncReveive(client);
+                AsyncReveive(client); 
             }, null);
         }
 
