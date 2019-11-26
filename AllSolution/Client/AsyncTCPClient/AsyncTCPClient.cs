@@ -35,7 +35,8 @@ namespace AsyncClient
         /// <param name="socket"></param>
         /// <param name="message"></param>
         public void AsynSend(Socket socket, string message) {
-            if (socket == null || message == string.Empty) return;
+            if (socket == null || message == string.
+               Empty) return;
             //编码
             byte[] data = Encoding.UTF8.GetBytes(message);
             try {
