@@ -3,34 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{B1EA34B6-91CE-4E88-AA28-3A102381D2F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{B1EA34B6-91CE-4E88-AA28-3A102381D2F3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8} = {078CE7E8-94C3-44D8-A18C-42962A19F8C8}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncServer", "AsyncServer\AsyncServer.csproj", "{25965BB6-11A1-4A37-9C06-BDF85212E798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncServer", "AsyncServer\AsyncServer.csproj", "{25965BB6-11A1-4A37-9C06-BDF85212E798}"
 	ProjectSection(ProjectDependencies) = postProject
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8} = {078CE7E8-94C3-44D8-A18C-42962A19F8C8}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynServerNew", "AsynServerNew\AsynServerNew.csproj", "{5E11D78E-6A74-4B53-BFEE-3DBFF02DAC08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsynServerNew", "AsynServerNew\AsynServerNew.csproj", "{5E11D78E-6A74-4B53-BFEE-3DBFF02DAC08}"
 	ProjectSection(ProjectDependencies) = postProject
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8} = {078CE7E8-94C3-44D8-A18C-42962A19F8C8}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadServer", "Thread\ThreadServer.csproj", "{177E93A7-3F9B-4C50-9587-E2653CCAE724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadServer", "Thread\ThreadServer.csproj", "{177E93A7-3F9B-4C50-9587-E2653CCAE724}"
 	ProjectSection(ProjectDependencies) = postProject
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8} = {078CE7E8-94C3-44D8-A18C-42962A19F8C8}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{078CE7E8-94C3-44D8-A18C-42962A19F8C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "common", "common\common.csproj", "{078CE7E8-94C3-44D8-A18C-42962A19F8C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatRoom", "TcpChatRoom\TcpChatRoom.csproj", "{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpChatRoom", "TcpChatRoom\TcpChatRoom.csproj", "{B02EE312-0C3C-406C-BA1A-2E45C20E1EE1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{078CE7E8-94C3-44D8-A18C-42962A19F8C8} = {078CE7E8-94C3-44D8-A18C-42962A19F8C8}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpChatRoom", "UdpChatRoom\UdpChatRoom.csproj", "{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpChatRoom", "UdpChatRoom\UdpChatRoom.csproj", "{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncServerMesaage", "AsyncServerMesaage\AsyncServerMesaage.csproj", "{85E03814-7620-4759-B106-5109FC281AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +68,10 @@ Global
 		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF4026DB-FD6B-43DA-A900-84A13E4D97C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E03814-7620-4759-B106-5109FC281AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E03814-7620-4759-B106-5109FC281AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E03814-7620-4759-B106-5109FC281AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E03814-7620-4759-B106-5109FC281AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
