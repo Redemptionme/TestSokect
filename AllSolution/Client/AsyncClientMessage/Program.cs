@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+使用message 结构 客户端
+
+ 
+ */
+
+
+
+using System;
 using System.Text;
 using System.Net.Sockets;
 using System.Net;
