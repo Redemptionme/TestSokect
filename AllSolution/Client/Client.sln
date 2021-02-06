@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{7725692E-3FB9-4E08-A38D-4F6FEA114680}"
 EndProject
@@ -26,7 +26,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpChatRoom", "TcpChatRoom\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpChatRoom", "UdpChatRoom\UdpChatRoom.csproj", "{76712189-2392-4D53-BF17-DC64F9B8DF37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncClientMessage", "AsyncClientMessage\AsyncClientMessage.csproj", "{14266C4C-3C70-48ED-B0C5-21788EEF0FB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncClientMessage", "AsyncClientMessage\AsyncClientMessage.csproj", "{14266C4C-3C70-48ED-B0C5-21788EEF0FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{A922D213-EB60-45E4-AC8D-E20298F7438A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7292F742-09B1-49AF-BCEE-661954F8E6EC} = {7292F742-09B1-49AF-BCEE-661954F8E6EC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncChatClient", "AsyncChatClient\AsyncChatClient.csproj", "{BC9EA0B2-335B-43D3-83F0-6699AF87D33E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +73,14 @@ Global
 		{14266C4C-3C70-48ED-B0C5-21788EEF0FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14266C4C-3C70-48ED-B0C5-21788EEF0FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14266C4C-3C70-48ED-B0C5-21788EEF0FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A922D213-EB60-45E4-AC8D-E20298F7438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A922D213-EB60-45E4-AC8D-E20298F7438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A922D213-EB60-45E4-AC8D-E20298F7438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A922D213-EB60-45E4-AC8D-E20298F7438A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9EA0B2-335B-43D3-83F0-6699AF87D33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9EA0B2-335B-43D3-83F0-6699AF87D33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9EA0B2-335B-43D3-83F0-6699AF87D33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9EA0B2-335B-43D3-83F0-6699AF87D33E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
